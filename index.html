@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourData Panama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="TourData Panamá" height="40" class="me-2">
+                TourData Panama
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#destinos">Destinos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#actividades">Actividades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reservas">Reservas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <!-- Hero Section -->
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_357,q_100,w_1024/v1/clients/panama/HERO_BANNER_Panama_sitios_historicos_L3_23dc1c29-2676-4584-b1dd-d074506971aa.jpg" class="d-block w-100" alt="Destino 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Explora Panamá</h5>
+                        <p>Descubre lugares increíbles</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_357,q_100,w_1024,x_2736,y_1623/v1/clients/panama/Cajones_de_Chame_Panama_Oeste_province_48d677f5-ee1c-40c7-b9db-c27a4de77cb5.jpg" class="d-block w-100" alt="Destino 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_357,q_100,w_1024,x_716,y_236/v1/clients/panama-update/banner_hero_playas_23714cc9-554e-44aa-ae9e-da0e62c559e5.jpg" class="d-block w-100" alt="Destino 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Sección Destinos -->
+    <section id="destinos" class="container py-5">
+        <h2 class="text-center mb-4">Destinos Populares</h2>
+        <div class="row">
+            <div class="col-md-4 py-3">
+                <div class="card">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_656,q_65,w_1024/v1/clients/panama/temp_d849b771-32f3-4060-8334-6a91f4f5c3f0.jpg" class="card-img-top" alt="Destino">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciudad de Panamá</h5>
+                        <p class="card-text">Una metrópolis moderna con historia y cultura.</p>
+                        <ul>
+                            <li>Vibrante vida nocturna</li>
+                            <li>Restaurantes internacionales</li>
+                            <li>Eventos culturales y festivales</li>
+                        </ul>
+                        <a href="#reservas" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="card">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_656,q_65,w_1024/v1/clients/panama/temp_8cd0fa01-3d9f-4429-9923-cd40903eef59.png" class="card-img-top" alt="Destino">
+                    <div class="card-body">
+                        <h5 class="card-title">Boquete</h5>
+                        <p class="card-text">Montañas, café y aventuras al aire libre.</p>
+                        <ul>
+                            <li>Café orgánico de la región</li>
+                            <li>Caminatas por la naturaleza</li>
+                            <li>Relajación en el clima fresco</li>
+                        </ul>
+                        <a href="#reservas" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="card">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_656,q_65,w_1024,x_1200,y_797/v1/clients/panama/Bocas_del_Toro_0005_4e695e4d-20cf-4e21-85f0-013e94fb2447.jpg" class="card-img-top" alt="Destino">
+                    <div class="card-body">
+                        <h5 class="card-title">Bocas del Toro</h5>
+                        <p class="card-text">Playas paradisíacas y vida nocturna vibrante.</p>
+                        <ul>
+                            <li>Playas de aguas cristalinas</li>
+                            <li>Vida nocturna animada</li>
+                            <li>Actividades acuáticas</li>
+                        </ul>
+                        <a href="#reservas" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="card">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_656,q_65,w_1024,x_2438,y_1326/v1/clients/panama/Foto_Canal_HRes_2_b4c91991-71cb-4470-b867-380c83888a52.jpg" class="card-img-top" alt="Destino">
+                    <div class="card-body">
+                        <h5 class="card-title">Canal de Panamá</h5>
+                        <p class="card-text">Una obra maestra de la ingeniería mundial.</p>
+                        <ul>
+                            <li>Esclusas y vistas panorámicas</li>
+                            <li>Museo y centro de visitantes</li>
+                            <li>Cruceros y recorridos guiados</li>
+                        </ul>
+                        <a href="#reservas" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="card">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_656,q_65,w_1024,x_1216,y_544/v1/clients/panama/Colon_0044_781de9bc-a2aa-4156-89bb-734fea8aa40c.jpg" class="card-img-top" alt="Destino">
+                    <div class="card-body">
+                        <h5 class="card-title">Portobelo</h5>
+                        <p class="card-text">Un histórico puerto colonial lleno de encanto.</p>
+                        <ul>
+                            <li>Fortalezas y ruinas españolas</li>
+                            <li>Playas y arrecifes ideales para el buceo</li>
+                            <li>Cultura afrocaribeña y festivales</li>
+                        </ul>
+                        <a href="#reservas" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3">
+                <div class="card">
+                    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_656,q_65,w_1024,x_800,y_624/v1/clients/panama/large_Cerro_Gaital_El_Valle_de_Ant_n_Cocl_Province_Panam__a65ba8f7-350c-4009-a45c-ee158fc60dd7.jpg" class="card-img-top" alt="Destino">
+                    <div class="card-body">
+                        <h5 class="card-title">El Valle de Antón</h5>
+                        <p class="card-text">Un paraíso natural en el cráter de un volcán extinto.</p>
+                        <ul>
+                            <li>Senderos, cascadas y aguas termales</li>
+                            <li>Observación de aves y biodiversidad</li>
+                            <li>Mercado artesanal y gastronomía local</li>
+                        </ul>
+                        <a href="#reservas" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- Sección Actividades -->
+ <section id="actividades" class="container py-5">
+    <h2 class="text-center mb-4">Actividades Recomendadas</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_656,q_65,w_1024/v1/clients/panama/Website_Diving_Corals_Flipped_1__b56ab89a-9eab-4699-a537-33c083dbe051.jpg" class="card-img-top" alt="Snorkel">
+                <div class="card-body">
+                    <h5 class="card-title">Snorkel en Bocas</h5>
+                    <p class="card-text">Explora arrecifes de coral impresionantes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_656,q_65,w_1024/v1/clients/panama-update/bird_watching_in_la_amistad_international_park_cerro_punta_chiriqui_province_6f87316a-2d1a-460b-abdd-53adfdeae69c.jpg" class="card-img-top" alt="Senderismo">
+                <div class="card-body">
+                    <h5 class="card-title">Senderismo en Boquete</h5>
+                    <p class="card-text">Caminatas por la selva con vistas espectaculares.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_656,q_65,w_1024/v1/clients/panama-update/playa_venao_los_santos_province_2d815dc7-6fac-4742-beb3-449bd4f31c3e.jpg" class="card-img-top" alt="Surf">
+                <div class="card-body">
+                    <h5 class="card-title">Surf en Santa Catalina</h5>
+                    <p class="card-text">Las mejores olas para surfistas de todos los niveles.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    <!-- Sección Filtros de Búsqueda -->
+<section id="filtros" class="container py-5">
+    <h2 class="text-center mb-4">Filtros de Búsqueda</h2>
+    <form id="filtro-form">
+        <div class="row g-3">
+            <!-- Precio Máximo -->
+            <div class="col-md-6">
+                <label for="precio" class="form-label"><i class="bi bi-cash-coin"></i> Precio máximo:</label>
+                <input type="range" class="form-range" id="precio" min="0" max="500" step="10">
+                <span id="valor-precio" class="fw-bold">$500</span> USD
+            </div>
+            
+            <!-- Ubicación -->
+            <div class="col-md-6">
+                <label for="ubicacion" class="form-label"><i class="bi bi-geo-alt"></i> Ubicación:</label>
+                <input type="text" class="form-control" id="ubicacion" placeholder="Ej: Ciudad de Panamá">
+            </div>
+        </div>
+        
+        <div class="row g-3 mt-3">
+            <!-- Tipo de Alojamiento -->
+            <div class="col-md-6">
+                <label for="tipo-alojamiento" class="form-label"><i class="bi bi-building"></i> Tipo de Alojamiento:</label>
+                <select id="tipo-alojamiento" class="form-select">
+                    <option value="">Seleccione...</option>
+                    <option value="hotel">Hotel</option>
+                    <option value="resort">Resort</option>
+                    <option value="hostal">Hostal</option>
+                    <option value="eco-lodge">Eco Lodge</option>
+                </select>
+            </div>
+            
+            <!-- Servicios -->
+            <div class="col-md-6">
+                <label for="servicios" class="form-label"><i class="bi bi-tools"></i> Servicios:</label>
+                <select id="servicios" class="form-select" multiple>
+                    <option value="wifi">Wi-Fi</option>
+                    <option value="piscina">Piscina</option>
+                    <option value="gimnasio">Gimnasio</option>
+                    <option value="desayuno">Desayuno incluido</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="text-center mt-4">
+            <button type="button" class="btn btn-primary me-2" onclick="buscarHoteles()">Buscar</button>
+            <button type="reset" class="btn btn-secondary">Limpiar</button>
+        </div>
+    </form>
+</section>
+
+
+    <!-- Sección Reservas -->
+    <section id="reservas" class="container py-2">
+        <h2 class="text-center mb-4">Reservar un Hotel</h2>
+        <form id="reserva-form">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="hotel" class="form-label">Hotel:</label>
+                <select id="hotel" class="form-select" required>
+                    <option value="Hotel Panamá Deluxe">Hotel Panamá Deluxe</option>
+                    <option value="Resort Bocas Beach">Resort Bocas Beach</option>
+                    <option value="EcoLodge Boquete">EcoLodge Boquete</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="fecha" class="form-label">Fecha de Check-in:</label>
+                <input type="date" class="form-control" id="fecha" required>
+            </div>
+            <div class="mb-3">
+                <label for="huespedes" class="form-label">Número de Huéspedes:</label>
+                <input type="number" class="form-control" id="huespedes" min="1" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Confirmar Reserva</button>
+        </form>
+        <div id="confirmacion" class="mt-3"></div>
+    </section>
+    
+    <!-- Sección Contacto -->
+<section id="contacto" class="container py-5">
+    <h2 class="text-center mb-4">Contáctanos</h2>
+    <p class="text-center">Envíanos un mensaje y te responderemos lo antes posible.</p>
+    
+    <form id="contacto-form">
+        <div class="mb-3">
+            <label for="nombre-contacto" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="nombre-contacto" required>
+        </div>
+        <div class="mb-3">
+            <label for="correo-contacto" class="form-label">Correo Electrónico:</label>
+            <input type="email" class="form-control" id="correo-contacto" required>
+        </div>
+        <div class="mb-3">
+            <label for="mensaje-contacto" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="mensaje-contacto" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    
+    <!-- Mensaje de confirmación -->
+    <div id="confirmacion-contacto" class="mt-3"></div>
+</section>
+
+    <footer class="bg-primary text-white text-center py-4 mt-5">
+        <div class="container">
+            <p>&copy; 2025 TourData Panama. Todos los derechos reservados.</p>
+            <p>Síguenos en:</p>
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Script para confirmación de reserva -->
+    <script>
+        document.getElementById("reserva-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const nombre = document.getElementById("nombre").value;
+            const hotel = document.getElementById("hotel").value;
+            const fecha = document.getElementById("fecha").value;
+            const huespedes = document.getElementById("huespedes").value;
+            
+            const reserva = { nombre, hotel, fecha, huespedes };
+            localStorage.setItem("reserva", JSON.stringify(reserva));
+            
+            document.getElementById("confirmacion").innerHTML = `
+                <div class="alert alert-success">
+                    <strong>Reserva Confirmada:</strong><br>
+                    <b>Nombre:</b> ${nombre} <br>
+                    <b>Hotel:</b> ${hotel} <br>
+                    <b>Fecha de Check-in:</b> ${fecha} <br>
+                    <b>Número de Huéspedes:</b> ${huespedes}
+                </div>`;
+        });
+    </script>
+<script>
+    document.getElementById("contacto-form").addEventListener("submit", function(event) {
+        event.preventDefault(); // Evita la recarga de la página
+        
+        const nombre = document.getElementById("nombre-contacto").value;
+        
+        // Simula el envío y muestra un mensaje de confirmación
+        document.getElementById("confirmacion-contacto").innerHTML = `
+            <div class="alert alert-success">
+                ¡Gracias, <b>${nombre}</b>! Tu mensaje ha sido enviado con éxito. Nos pondremos en contacto pronto.
+            </div>`;
+        
+        // Limpia el formulario
+        this.reset();
+    });
+</script>
+    <!-- Script para actualizar valor del rango de precio -->
+    <script>
+        document.getElementById('precio').addEventListener('input', function() {
+            document.getElementById('valor-precio').textContent = `$${this.value}`;
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
